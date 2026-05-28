@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1940-е — война и утилитарность</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; color: #e0d8cc; font-family: 'Inter', sans-serif; }
+  .wrap { max-width: 1000px; width: 90%; margin: 0 auto; padding: 32px 24px; }
+  .menu { text-align: right; margin-bottom: 32px; }
+  .menu a { color: #c7a252; text-decoration: none; border: 1px solid rgba(199,162,82,0.4); padding: 8px 20px; border-radius: 50px; font-size: 16px; display: inline-block; transition: 0.3s; }
+  .menu a:hover { background: #c7a252; color: #0a0a0a; }
+  h1 { font-family: 'Playfair Display', serif; font-size: 55px; color: #f0e8dd; text-align: center; }
+  .sub { text-align: center; color: #8b2a2a; font-size: 14px; letter-spacing: 3px; margin: 16px 0 30px; }
+  .photo { display: flex; width: 100%; gap: 10px; margin: 20px 0; }
+  .photo img { width: 33.333%; height: 400px; object-fit: cover; border-radius: 12px; }
+  .caption { background: #0c0c0c; padding: 12px; text-align: center; font-size: 14px; color: #a09787; border-radius: 8px; margin-bottom: 30px; }
+  .card { background: #0e0e0e; border-radius: 20px; padding: 25px 30px; margin-bottom: 30px; border-left: 4px solid #8b2a2a; }
+  .country { font-family: 'Playfair Display', serif; font-size: 28px; color: #8b2a2a; margin-bottom: 15px; }
+  .line { display: flex; flex-wrap: wrap; gap: 10px; font-size: 18px; margin: 8px 0; }
+  .label { font-weight: 600; color: #b68b40; min-width: 100px; }
+  .text { color: #ddd2c2; }
+  .extra-facts { margin: 40px 0; }
+  .extra-facts h3 { font-family: 'Playfair Display', serif; font-size: 32px; color: #c7a252; margin-bottom: 20px; text-align: center; }
+  .extra-facts ul { list-style: none; padding: 0; }
+  .extra-facts li { font-size: 18px; color: #ddd2c2; margin-bottom: 12px; padding-left: 25px; position: relative; }
+  .extra-facts li::before { content: "⚙️"; color: #8b2a2a; position: absolute; left: 0; }
+  .spirit { margin: 30px 0; padding: 25px; background: #0b0b0b; border-radius: 20px; border-left: 3px solid #8b2a2a; }
+  .spirit p { font-size: 18px; color: #cdc2b2; }
+  hr { margin: 30px 0; border: none; height: 1px; background: #2a241e; }
+  footer { text-align: center; font-size: 12px; color: #5f584c; }
+  @media (max-width: 800px) {
+    .photo { flex-direction: column; }
+    .photo img { width: 100%; height: 250px; }
+    h1 { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="menu"><a href="index.html">← ГЛАВНАЯ</a></div>
+  <h1>1940-е<br>Война и утилитарность</h1>
+  <div class="sub">экономия · труд · выживание</div>
+  <div class="photo">
+    <img src="https://i.pinimg.com/736x/7a/6e/2e/7a6e2e4d0980d1f622cdad05570a00dd.jpg" alt="1940-е стиль">
+    <img src="https://i.pinimg.com/736x/99/29/a2/9929a2960cb205fa9b4eb4f295fab9da.jpg" alt="1940-е мода">
+    <img src="https://i.pinimg.com/736x/8d/e5/8c/8de58ce7389d6e2ee4f6b3f24d16ad10.jpg" alt="1940-е женщины">
+  </div>
+  <div class="caption">платья-костюмы, тюрбаны, комбинезоны — мода на службе войны</div>
+  
+  <div class="card"><div class="country">🇺🇸 США</div><div class="line"><span class="label">одежда</span><span class="text">женские брюки, комбинезоны для заводов, платья-костюмы</span></div><div class="line"><span class="label">аксессуары</span><span class="text">тюрбаны, головные платки, сумки из пробки</span></div><div class="line"><span class="label">поведение</span><span class="text">работа на заводах (Рози-клепальщица), экономия ткани</span></div></div>
+  <div class="card"><div class="country">🇯🇵 Япония</div><div class="line"><span class="label">одежда</span><span class="text">моно-пе (рабочие штаны), упрощённое кимоно момонжи</span></div><div class="line"><span class="label">аксессуары</span><span class="text">деревянные гета, белые платки</span></div><div class="line"><span class="label">поведение</span><span class="text">помощь фронту, отказ от роскоши</span></div></div>
+  <div class="card"><div class="country">🇷🇺 СССР</div><div class="line"><span class="label">одежда</span><span class="text">телогрейки, ватники, сапоги, платья из мешковины</span></div><div class="line"><span class="label">аксессуары</span><span class="text">резиновые сапоги, платок-косынка, варежки</span></div><div class="line"><span class="label">поведение</span><span class="text">трудовой фронт, дежурства в госпиталях</span></div></div>
+  <div class="card"><div class="country">🇫🇷 Франция</div><div class="line"><span class="label">одежда</span><span class="text">деревянные подошвы, жакеты с широкими плечами</span></div><div class="line"><span class="label">аксессуары</span><span class="text">тюрбаны из лоскутов, сумки из дерева</span></div><div class="line"><span class="label">поведение</span><span class="text">оккупация, выживание, подпольная мода</span></div></div>
+  <div class="card"><div class="country">🇮🇳 Индия</div><div class="line"><span class="label">одежда</span><span class="text">хлопковое сари (поддержка Ганди), западные рубашки</span></div><div class="line"><span class="label">аксессуары</span><span class="text">простые деревянные бусы, кожаные сандалии</span></div><div class="line"><span class="label">поведение</span><span class="text">борьба за независимость, отказ от британских тканей</span></div></div>
+  
+  <div class="extra-facts"><h3>⚙️ Тыл — это фронт: факты</h3><ul><li><strong>Рози-клепальщица</strong> — символ миллионов женщин, заменивших мужчин у станков.</li><li><strong>Нормирование тканей</strong> — длина юбок и ширина брюк строго ограничены.</li><li><strong>Деревянные подошвы</strong> во Франции из-за нехватки кожи и резины.</li><li><strong>Тюрбаны и платки</strong> — практичная замена шляпкам на заводе.</li><li><strong>Макияж и чулки</strong> рисовали подводкой, когда настоящих не было.</li></ul></div>
+  <div class="spirit"><p>⚡ Женщины освоили профессии лётчиц, сварщиц и механиков. Мода стала утилитарной, но не потеряла женственности — широкие плечи, зауженная талия, платки и сумки из пробки. Война изменила всё.</p></div>
+  <hr>
+  <footer>трансформация женского стиля · 1940-е · сила и выживание</footer>
+</div>
+</body>
+</html>
